@@ -54,6 +54,19 @@ const ResultItem: React.FC<{ question: QuizQuestion; userAnswer: UserAnswer }> =
                             <p className="text-gray-400 ml-2">{explanation}</p>
                         </div>
                     ))}
+                    {question.sourceURL && (
+                        <div className="mt-4">
+                            <p className="font-bold text-gray-300">Further Reading:</p>
+                            <a 
+                                href={question.sourceURL} 
+                                target="_blank" 
+                                rel="noopener noreferrer" 
+                                className="text-indigo-400 hover:underline break-all"
+                            >
+                                {question.sourceURL}
+                            </a>
+                        </div>
+                    )}
                 </div>
             )}
         </div>

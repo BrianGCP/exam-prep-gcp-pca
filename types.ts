@@ -17,6 +17,7 @@ export interface QuizQuestion {
   correctAnswer: string;
   explanation: string;
   distractorExplanations: DistractorExplanation[];
+  sourceURL: string;
 }
 
 export interface QuizResponse {

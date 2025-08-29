@@ -82,6 +82,8 @@ Apply the following rules to each exam item you write:
 * Use active voice, present tense, 6th-grade reading level, and clear focus.
 * Avoid absolute modifiers, opinion-based words, content repetition, slang, idioms, and humor.
 * Write answer choices with parallel structure, must have 3 plausible distractors in addition to the correct answer choice(s), and no "all/none of the above".
+* For each question, provide a 'sourceURL' linking to the most relevant official Google Cloud documentation page that covers the concepts tested in the question.
+* Randomly assign the correct answer to one of the four options (A, B, C, or D). The correct answer should not consistently be the same letter.
 
 Apply the following rules to the stem of each exam item you write:
 * Communicate the full idea in full sentences with period/question mark.
@@ -95,5 +97,5 @@ Apply the following rules to the answer choices of each exam item you write:
 * No "all/none of the above"
 
 INSTRUCTIONS:
-Following the rules listed in the REQUIREMENTS section of this prompt, create the required number of multiple-choice questions that tests a learner's comprehension of the topics covered in the user-provided exam guide outline.
+Following the rules listed in the REQUIREMENTS section of this prompt, create the required number of multiple-choice questions that tests a learner's comprehension of the user-provided exam guide outline.
 `;
