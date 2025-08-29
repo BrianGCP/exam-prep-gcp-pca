@@ -1,0 +1,5 @@
+{
+  "name": "GCP Architect Exam Prep",
+  "description": "A user-friendly certification preparation tool to test proficiency and readiness for the Google Cloud Professional Cloud Architect exam. The tool generates tailored quizzes for each exam guide category using AI.",
+  "requestFramePermissions": []
+}
